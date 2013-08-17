@@ -22,8 +22,18 @@ Set up virtualisation by following these steps:
 
 1. Install [VirtualBox](https://www.virtualbox.org/)
 2. Install [Vagrant](http://www.vagrantup.com/)
-3. `vagrant up`
-4. `vagrant ssh`
-5. `npm install`
+
+##Operation
+
+1. `vagrant up` - gets your virtual box up and running. May take a long time to download stuff the first time you run it
+2. `vagrant ssh` - ssh into your virtual machine (Ubuntu is the out of the box standard).
+3. `npm install` - set up norch on your virtual box (the Norch maintainers are still discussing what the best way to do this is)
 
 __Note:__ when starting Norch insde a Vagrant VM you must specify the norch home directory, see Commandline options. The norch home directory cannot be in a shared folder.
+
+TODO: make a sensible recipe for installing a norch.
+
+##Shutdown
+
+`vagrant destroy`
+
