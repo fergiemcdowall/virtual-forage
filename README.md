@@ -1,7 +1,7 @@
 Virtual-norch
 =============
 
-Virtual-norch is a virtualisation package for Norch, allowing a host machine to run Norch on a guest OS.
+Virtual-norch is a virtualisation package for [Norch](http://www.norch.net), allowing a host machine to run Norch on a guest OS.
 This can be useful for testing Norch on another operating system, and also for investigating clustering strategies.
 
 ##Downloading
@@ -39,6 +39,6 @@ TODO: make a sensible recipe for installing a norch.
 
 ##Contributers
 
-Niels Henrik Hagen @nhhagen - concept and prototype
+Niels Henrik Hagen [@nhhagen](https://github.com/nhhagen) - concept and prototype
 
 
