@@ -37,3 +37,8 @@ TODO: make a sensible recipe for installing a norch.
 
 `vagrant destroy`
 
+##Contributers
+
+Niels Henrik Hagen @nhhagen - concept and prototype
+
+
