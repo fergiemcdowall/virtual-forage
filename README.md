@@ -1,4 +1,4 @@
-virtual-norch
+Virtual-norch
 =============
 
 Virtual-norch is a virtualisation package for Norch. Allows a host machine to run Norch on a guest OS. Norch comes set up for virtualisation, which can be useful for testing Norch on another operating system
