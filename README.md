@@ -9,9 +9,9 @@ This can be useful for testing Norch on another operating system, and also for i
 Like all things on GitHub, virtual-norch is best git cloned onto your machine. Since virtual-norch contains submodules a
 couple of extra git commands must be invoked in order to obtain a working copy.
 
-1. git clone
-2. git submodule init
-3. git submodule update
+1. `git clone https://github.com/fergiemcdowall/virtual-norch.git`
+2. `git submodule init`
+3. `git submodule update`
 
 ##Installation
 
