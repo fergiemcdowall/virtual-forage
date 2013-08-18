@@ -26,7 +26,7 @@ Set up virtualisation by following these steps:
 ##Operation
 
 1. `vagrant up` - gets your virtual box up and running. May take a long time to download stuff the first time you run it (Ubuntu is the standard OS)
-2. `vagrant up` - runs installation scripts for your virtual machine
+2. `vagrant provision` - runs installation scripts for your virtual machine
 3. `vagrant ssh` - ssh into your virtual machine.
 4. `npm install` - set up norch on your virtual box (the Norch maintainers are still discussing what the best way to do this is)
 
