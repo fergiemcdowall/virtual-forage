@@ -9,9 +9,7 @@ This can be useful for testing Norch on another operating system, and also for i
 Like all things on GitHub, virtual-norch is best git cloned onto your machine. Since virtual-norch contains submodules a
 couple of extra git commands must be invoked in order to obtain a working copy.
 
-1. `git clone https://github.com/fergiemcdowall/virtual-norch.git`
-2. `git submodule init`
-3. `git submodule update`
+`git clone https://github.com/fergiemcdowall/virtual-norch.git`
 
 ##Installation
 
@@ -25,14 +23,10 @@ Set up virtualisation by following these steps:
 
 ##Operation
 
-1. `vagrant up` - gets your virtual box up and running. May take a long time to download stuff the first time you run it (Ubuntu is the standard OS)
-2. `vagrant provision` - runs installation scripts for your virtual machine
-3. `vagrant ssh` - ssh into your virtual machine.
-4. `npm install` - set up norch on your virtual box (the Norch maintainers are still discussing what the best way to do this is)
+`vagrant up` - gets your virtual box up and running. May take a long time to download stuff the first time
+you run it (Ubuntu is the standard OS). This script will clone, install and startup a norch in your virtual machine.
 
-__Note:__ when starting Norch insde a Vagrant VM you must specify the norch home directory, see Commandline options. The norch home directory cannot be in a shared folder.
-
-TODO: make a sensible recipe for installing a norch.
+Your Norch should be available on `http://localhost:3000/`
 
 ##Shutdown
 
