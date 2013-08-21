@@ -26,7 +26,7 @@ Set up virtualisation by following these steps:
 `vagrant up` - gets your virtual box up and running. May take a long time to download stuff the first time
 you run it (Ubuntu is the standard OS). This script will clone, install and startup a norch in your virtual machine.
 
-Your Norch should be available on `http://localhost:3000/`
+Your Norch should be available on [http://localhost:3000/](http://localhost:3000/)
 
 ##Shutdown
 
