@@ -1,15 +1,15 @@
-Virtual-norch
+Virtual-forage
 =============
 
-Virtual-norch is a virtualisation package for [Norch](http://www.norch.net), allowing a host machine to run Norch on a guest OS.
-This can be useful for testing Norch on another operating system, and also for investigating clustering strategies.
+Virtual-forage is a virtualisation package for [Forage](http://www.norch.net), allowing a host machine to run Forage on a guest OS.
+This can be useful for testing Forage on another operating system, and also for investigating clustering strategies.
 
 ##Downloading
 
-Like all things on GitHub, virtual-norch is best git cloned onto your machine. Since virtual-norch contains submodules a
+Like all things on GitHub, virtual-forage is best git cloned onto your machine. Since virtual-forage contains submodules a
 couple of extra git commands must be invoked in order to obtain a working copy.
 
-`git clone https://github.com/fergiemcdowall/virtual-norch.git`
+`git clone https://github.com/fergiemcdowall/virtual-forage.git`
 
 ##Installation
 
@@ -24,9 +24,9 @@ Set up virtualisation by following these steps:
 ##Operation
 
 `vagrant up` - gets your virtual box up and running. May take a long time to download stuff the first time
-you run it (Ubuntu is the standard OS). This script will clone, install and startup a norch in your virtual machine.
+you run it (Ubuntu is the standard OS). This script will clone, install and startup a forage in your virtual machine.
 
-Your Norch should be available on [http://localhost:3000/](http://localhost:3000/)
+Your Forage should be available on [http://localhost:3000/](http://localhost:3000/)
 
 ##Shutdown
 
