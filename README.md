@@ -1,7 +1,7 @@
 Virtual-forage
 =============
 
-Virtual-forage is a virtualisation package for [Forage](http://www.norch.net), allowing a host machine to run Forage on a guest OS.
+Virtual-forage is a virtualisation package for [Forage](http://www.foragejs.net), allowing a host machine to run Forage on a guest OS.
 This can be useful for testing Forage on another operating system, and also for investigating clustering strategies.
 
 ##Downloading
