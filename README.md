@@ -6,10 +6,9 @@ This can be useful for testing Forage on another operating system, and also for 
 
 ##Downloading
 
-Like all things on GitHub, virtual-forage is best git cloned onto your machine. Since virtual-forage contains submodules a
-couple of extra git commands must be invoked in order to obtain a working copy.
+Like all things on GitHub, virtual-forage is best git cloned onto your machine, but could of course also be downloaded and unpacked as a zip. The clone command is;
 
-`git clone https://github.com/fergiemcdowall/virtual-forage.git`
+`git clone https://github.com/foragejs/virtual-forage.git`
 
 ##Installation
 
